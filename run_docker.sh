@@ -12,4 +12,4 @@ docker images
 
 # Step 3: 
 # Run flask app
-docker run -p 8080:80 boston_houseprice
+docker run -p 8000:80 boston_houseprice
