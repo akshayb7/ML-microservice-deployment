@@ -6,7 +6,7 @@ WORKDIR /app
 
 ## Step 2:
 # Copy source code to working directory
-COPY model_data /app/model_data
+COPY model_data/boston_housing_prediction.joblib /app/model_data/boston_housing_prediction.joblib
 COPY app.py /app/app.py
 COPY requirements.txt /app/requirements.txt
 
